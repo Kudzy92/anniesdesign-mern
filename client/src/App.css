@@ -24,8 +24,8 @@
 	--red:#dd2828;
 	--green:#00c417;
   --gold:#ffd700;
-	--transition:transition: all .2s ease;
-	--transition-2:transition: all .2s ease;
+	--transition: all .2s ease;
+	--transition-2:all .2s ease;
 }
 html {
   font-size: 62.5%;
@@ -1197,14 +1197,14 @@ table>tbody>tr>td .cart-product-details .details .description{
   display: flex;
   flex-direction: column;
 }
-.quanity-box{
+.quantity-box{
   display: flex;
   align-items: center;
   border: 0.085rem solid var(--grey);
   height:5rem;
   width: 15rem;
 }
-.quanity-box>span{
+.quantity-box>span{
   font-size: 1.8rem;
   font-weight: 600;
   color:var(--black-60);
@@ -1217,10 +1217,10 @@ table>tbody>tr>td .cart-product-details .details .description{
     border: none;
     transition: var(--transition);
 }
-.quanity-box>span:hover{
+.quantity-box>span:hover{
   color:var(--black);
 }
-.quanity-box>input{
+.quantity-box>input{
   font-size: 1.5rem;
   color: var(--theme-color-1);
 font-weight: 300;
