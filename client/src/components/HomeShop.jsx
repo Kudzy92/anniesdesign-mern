@@ -12,6 +12,7 @@ useEffect(()=>{
   const fetchProducts= async ()=>{
     //http://localhost:3001
    const {data} = await axios.get("https://localhost:3001/api/products");
+    console.log("DATA"+data);
    setProductList(data);
   };
   fetchProducts();
